@@ -41,7 +41,7 @@ This image was created with the objective of supporting the analysis of network 
 
 #### Run
 ```bash
-   podman run -it \
+   podman run -it --rm \
        --name ocp-tools \
        --net=host \
        --pid=host \
@@ -50,3 +50,6 @@ This image was created with the objective of supporting the analysis of network 
        quay.io/laraujo/tools:ocp-tools-1.1
 ```
 
+## Example
+
+![](images/podman_run_ocp-tools.png)
