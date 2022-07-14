@@ -6,7 +6,11 @@ This image was created with the objective of supporting the analysis of network 
 
 ## Packages
 
-```
+| List of Packages  | 
+|----------------|---------------|---------------|
+| <ul><li>- [x] Bind-tools</li> | <ul><li>- [x] iptraf-ng</li> |
+| <ul><li>[x] cURL</li> | <ul><li>- [x] iperf3</li> |
+
 - [x] Bind-tools
 - [x] cURL
 - [x] iptraf-ng
@@ -31,7 +35,6 @@ This image was created with the objective of supporting the analysis of network 
 - [x] vim
 - [ ] oc-cli
 - [ ] kubectl
-```
 
 ## Usage
 
