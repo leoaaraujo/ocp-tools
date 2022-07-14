@@ -6,18 +6,6 @@ This image was created with the objective of supporting the analysis of network 
 
 ## Packages
 
-| |  List of Packages                              | | 
-|----------------|---------------|---------------|
-| <ul><li>- [x] Bind-tools</li> | <ul><li>- [x] iptraf-ng</li> | <ul><li>- [x] iotop</li> |
-| <ul><li>[x] cURL</li> | <ul><li>- [x] iperf3</li> |  <ul><li>- [x] iftop</li> |
-| <ul><li>[x] cURL</li> | <ul><li>- [x] iperf3</li> |  <ul><li>- [x] iftop</li> |
-| <ul><li>[x] cURL</li> | <ul><li>- [x] iperf3</li> |  <ul><li>- [x] iftop</li> |
-| <ul><li>[x] cURL</li> | <ul><li>- [x] iperf3</li> |  <ul><li>- [x] iftop</li> |
-| <ul><li>[x] cURL</li> | <ul><li>- [x] iperf3</li> |  <ul><li>- [x] iftop</li> |
-| <ul><li>[x] cURL</li> | <ul><li>- [x] iperf3</li> |  <ul><li>- [x] iftop</li> |
-| <ul><li>[x] cURL</li> | <ul><li>- [x] iperf3</li> |  <ul><li>- [x] iftop</li> |
-   
-
 - [x] Bind-tools
 - [x] cURL
 - [x] iptraf-ng
