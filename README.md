@@ -8,10 +8,10 @@ This image was created with the objective of supporting the analysis of network 
 
 | <!-- -->    | <!-- -->    | <!-- -->    |
 |-------------|-------------|-------------|
-| [x] Bind-tools        |  [x] cURL       | [x] iptraf-ng        |
-| [x] Bind-tools        |  [x] cURL       | [x] iptraf-ng        |
-| [x] Bind-tools        |  [x] cURL       | [x] iptraf-ng        |
-| [x] Bind-tools        |  [x] cURL       | [x] iptraf-ng        |
+| - [x] Bind-tools        | - [x] cURL       | - [x] iptraf-ng        |
+| - [x] Bind-tools        | - [x] cURL       | - [x] iptraf-ng        |
+| - [x] Bind-tools        | - [x] cURL       | - [x] iptraf-ng        |
+| - [x] Bind-tools        | - [x] cURL       | - [x] iptraf-ng        |
 
 - [x] Bind-tools
 - [x] cURL
