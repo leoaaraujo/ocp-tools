@@ -38,7 +38,7 @@ This image was created with the objective of supporting the analysis of network 
 ### Image pull
 
 ```bash
-   podman pull quay.io/laraujo/tools:ocp-tools-1.1
+   podman pull quay.io/laraujo/tools:ocp-tools-1.2
 ```
 
 #### Run
@@ -49,7 +49,7 @@ This image was created with the objective of supporting the analysis of network 
        --pid=host \
        --ipc=host \
        --cap-add=SYS_PTRACE \
-       quay.io/laraujo/tools:ocp-tools-1.1
+       quay.io/laraujo/tools:ocp-tools-1.2
 ```
 
 ## Example
