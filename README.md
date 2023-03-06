@@ -25,11 +25,13 @@ This image was created with the objective of supporting the analysis of network 
 - [x] strace
 - [x] inetutils-telnet
 - [x] nmap
+- [x] fio
+- [x] nfs-utils
 - [x] aws-cli
 - [x] aws-cli-bash-completion
 - [x] vim
-- [ ] oc-cli
-- [ ] kubectl
+- [x] oc-cli
+- [x] kubectl
 
 ## Usage
 
