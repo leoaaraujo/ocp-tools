@@ -54,4 +54,4 @@ This image was created with the objective of supporting the analysis of network 
 
 ## Example
 
-![](images/podman_run_ocp-tools.png)
+![](podman_run_ocp-tools.png)
