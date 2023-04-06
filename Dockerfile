@@ -48,6 +48,7 @@ RUN \
              nfs-utils \
              aws-cli \
              aws-cli-bash-completion \
+             openssh \
              vim
 
 RUN \
