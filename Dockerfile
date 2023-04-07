@@ -49,6 +49,7 @@ RUN \
              aws-cli \
              aws-cli-bash-completion \
              openssh \
+             sshpass \
              vim
 
 RUN \
