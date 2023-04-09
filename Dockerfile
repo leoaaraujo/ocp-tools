@@ -50,6 +50,7 @@ RUN \
              aws-cli-bash-completion \
              openssh \
              sshpass \
+             lftp \
              vim
 
 RUN \
