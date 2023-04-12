@@ -48,6 +48,9 @@ RUN \
              nfs-utils \
              aws-cli \
              aws-cli-bash-completion \
+             openssh \
+             sshpass \
+             lftp \
              vim
 
 RUN \
