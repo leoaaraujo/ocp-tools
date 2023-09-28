@@ -19,7 +19,7 @@
 FROM alpine:latest
 LABEL maintainer "Leonardo Araujo <laraujo@redhat.com>"
 RUN \
-     apk update && apk upgrade && \
+     apk update --no-cache && apk upgrade --no-cache && \
      apk add --no-cache \
              ncurses-dev \
              unzip \
@@ -57,5 +57,7 @@ RUN \
      wget https://mirror.openshift.com/pub/openshift-v4/aarch64/clients/ocp/latest/openshift-client-linux-amd64.tar.gz && \
      tar -zxvf openshift-client-linux-amd64.tar.gz --directory /usr/local/bin/ --exclude=README.md && \
      chmod +x /usr/local/bin/oc /usr/local/bin/kubectl && \
-     rm -rf openshift-client-linux-amd64.tar.gz
+     rm -rf openshift-client-linux-amd64.tar.gz 
 
+RUN \
+    sed -i '/E-Tugra/d' /etc/ca-certificates.conf && update-ca-certificates && rm -rf /usr/share/ca-certificates/mozilla/E-Tugra_* 

@@ -29,6 +29,9 @@ This image was created with the objective of supporting the analysis of network 
 - [x] nfs-utils
 - [x] aws-cli
 - [x] aws-cli-bash-completion
+- [x] openssh
+- [x] sshpass
+- [x] lftp
 - [x] vim
 - [x] oc-cli
 - [x] kubectl
@@ -38,7 +41,7 @@ This image was created with the objective of supporting the analysis of network 
 ### Image pull
 
 ```bash
-   podman pull quay.io/laraujo/tools:ocp-tools-1.2
+   podman pull quay.io/laraujo/tools:ocp-tools-latest
 ```
 
 #### Run
@@ -49,7 +52,7 @@ This image was created with the objective of supporting the analysis of network 
        --pid=host \
        --ipc=host \
        --cap-add=SYS_PTRACE \
-       quay.io/laraujo/tools:ocp-tools-1.2
+       quay.io/laraujo/tools:ocp-tools-latest
 ```
 
 ## Example
