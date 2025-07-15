@@ -57,7 +57,8 @@ RUN \
      wget https://mirror.openshift.com/pub/openshift-v4/aarch64/clients/ocp/latest/openshift-client-linux-amd64.tar.gz && \
      tar -zxvf openshift-client-linux-amd64.tar.gz --directory /usr/local/bin/ --exclude=README.md && \
      chmod +x /usr/local/bin/oc /usr/local/bin/kubectl && \
-     rm -rf openshift-client-linux-amd64.tar.gz 
+     rm -rf openshift-client-linux-amd64.tar.gz && \
+     rm -rf /var/cache/apk/* 
 
 RUN \
     sed -i '/E-Tugra/d' /etc/ca-certificates.conf && update-ca-certificates && rm -rf /usr/share/ca-certificates/mozilla/E-Tugra_* 
